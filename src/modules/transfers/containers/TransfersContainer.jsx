@@ -17,7 +17,7 @@ class TransfersContainer extends PureComponent {
   render() {
     return (
       <div className="card card-block">
-        <Search onSearch={this.props.fetch} searchText="" />
+        <Search onSearch={this.props.fetch} />
         <TransfersList transfers={this.props.transfers} />
       </div>
     );
